@@ -96,7 +96,7 @@ class DataApiService {
   Future<dynamic> getGemini(String body) async {
 
 
-    var uri = Uri.parse( "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=AIzaSyCMSu9ZdUgXZpQVXKPZPIDFJUtS5JKFOX4");
+    var uri = Uri.parse( "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=");
     print(uri.path);
     try {
       var response = await http.post(uri,body: body, headers: {
