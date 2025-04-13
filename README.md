@@ -1,16 +1,11 @@
-# houston_hot_pass_staff_flow
+👨‍🍳 Staff App
+The Houston Hotpass Staff App is designed for restaurant staff to validate user redemptions on-site.
+Core Features:
 
-A new Flutter project.
+🔐 Staff login via credentials set by the restaurant admin
 
-## Getting Started
+📸 QR code scanner for validating user offers
 
-This project is a starting point for a Flutter application.
+📜 View recent redemption history to ensure transparency
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+📊 Simple dashboard showing recent scans and activities
